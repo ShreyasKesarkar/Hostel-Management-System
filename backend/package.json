@@ -1,0 +1,26 @@
+{
+  "name": "hostel-management-backend",
+  "version": "1.0.0",
+  "description": "Hostel Management System REST API Backend with Express and SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "hostel",
+    "management",
+    "express",
+    "sqlite"
+  ],
+  "author": "Academic Project Submission",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.6.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
